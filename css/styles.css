@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+
+*{
+
+margin: 0;
+padding: 0;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Permanent Marker', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+
+width: 100%;
+position: relative;
+
+}
+
+header nav{
+
+width: 100%;
+background: #e98d15;
+/* padding-left: 120px; 
+padding-right: 120px;*/
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 14px 0;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 15;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header li a{
+    color: #193012;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+header li a:hover{
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+
+}
+
+
+header a.logo{
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header #hero{
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    background: url("../img/img1.jpg");
+    background-size: cover;
+}
+header #hero h1{
+padding-top: 300px;
+color: #ff9900;
+font-size: 40px;
+}
+
+header #hero h3{
+    padding-top: 20px;
+    color: #ff9900;
+    font-size: 30px;
+    }
+
+    header #hero p{
+        padding-top: 20px;
+        color: #ff9900;
+        font-size: 20px;
+        padding-left: 600px;
+        padding-right: 600px;
+        margin-bottom: 50px;
+        }
+        
+        header #hero a{
+            text-decoration: none;
+            color: #000;
+            background: #39e79e;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            max-width: 120px;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+    
+        main{
+            width: 100%;
+            position: relative;
+        }
+        #about{
+            width: 100%;
+            position: relative;
+            padding: 100px 0;
+        }
+
+        #about .fila{
+            display: flex;
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        #about .fila img{
+           width: 500px;
+           transition: 1s;
+        }
+
+        #about .fila img:hover{
+            border-radius: 30px;
+            transform: scale(1.2);
+        }
+
+        #about .fila .cont-info{
+        padding-left: 40px;   
+        padding-top: 60px;     
+        }
+
+        #about h2{
+            color: #ff9900;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        #about p{
+            color: #ff9900;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        #services{
+            width: 100%;
+            position: relative;
+            padding: 120px 0;
+            background: url(../img/lava.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+
+        #services h2{
+
+            color: #ff9900;
+            font-size: 40px;
+            margin-bottom: 60px;
+        }
+
+        #services .fila{
+            display: flex;
+            justify-content: space-between;
+            max-width: 70%;
+            margin: 0 auto;
+        }
+
+        #services .fila .card{
+            width: 30%;
+            text-align: center;
+            background: #0000008c;
+            padding: 30px;
+            border-radius: 30px;
+            margin: 10px;
+            transition: .5s;
+        }
+
+        #services .fila .card:hover{
+            background: #cff02780;
+            border-radius: 0;
+            transform: translateY(-30px);
+        }
+
+        #services .fila .card:hover h3,
+        #services .fila .card:hover p{
+            color: #fe0c0c;
+        }
+        
+        #services .card h3{
+            font-size: 28px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        #services .card p{
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        #services .card a{
+          background: #000;
+          color: #ff9900;
+          text-decoration: none;
+          padding: 10px 30px;
+        }
+            
+        #video{
+            width: 100%;
+            position: relative;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        #video h2{
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        #video .cont-video{
+            width: 60%;
+            height: 450px;
+            margin: 0 auto;
+        }
+        
+        footer{
+            width: 100%;
+            text-align: center;
+            padding: 40px 0;
+            color: #ff9900;
+            background: #000;
+        }
+        
